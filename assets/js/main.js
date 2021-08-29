@@ -70,6 +70,24 @@ tabs.forEach((tab) => {
     });
 });
 
+// When click on university, color on university and high school appears and disappears respectively and vice versa
+let curContent = 0;
+const changeContent = () => {
+    const universitySelector = document.getElementById("universitySelector");
+    const highschoolSelector = document.getElementById("highschoolSelector");
+
+    if (curContent == 0) {
+        // highschool
+        curContent = 1;
+        highschoolSelector.classList.remove("qualification__active");
+        universitySelector.classList.add("qualification__active");
+    } else {
+        curContent = 0;
+        highschoolSelector.classList.add("qualification__active");
+        universitySelector.classList.remove("qualification__active");
+    }
+};
+
 /*==================== SERVICES MODAL ====================*/
 const modalViews = document.querySelectorAll(".services__modal"),
     modalBtns = document.querySelectorAll(".services__button"),
