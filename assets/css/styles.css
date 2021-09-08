@@ -1,6 +1,6 @@
 /*==================== GOOGLE FONTS ====================*/
 
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
 
 /*==================== VARIABLES CSS ====================*/
 
@@ -24,7 +24,7 @@
     --scroll-bar-color: hsl(var(--hue-color), 12%, 90%);
     --scroll-thumb-color: hsl(var(--hue-color), 12%, 80%);
     /*========== Font and typography ==========*/
-    --body-font: "Poppins", sans-serif;
+    --body-font: 'Poppins', sans-serif;
     /* .5rem = 8px, 1rem = 16px, 1.5rem = 24px ... */
     --big-font-size: 2rem;
     --h1-font-size: 1.5rem;
@@ -549,27 +549,31 @@ img {
 }
 
 .skills__html {
-    width: 60%;
-}
-
-.skills__css {
-    width: 50%;
-}
-
-.skills__js {
     width: 70%;
 }
 
+.skills__css {
+    width: 70%;
+}
+
+.skills__js {
+    width: 90%;
+}
+
 .skills__react {
-    width: 0%;
+    width: 50%;
 }
 
 .skills__python {
-    width: 80%;
+    width: 90%;
 }
 
 .skills__java {
-    width: 40%;
+    width: 60%;
+}
+
+.skills__c {
+    width: 60%;
 }
 
 .skills__calculus {
@@ -577,11 +581,11 @@ img {
 }
 
 .skills__statistics {
-    width: 70%;
+    width: 80%;
 }
 
 .skills__linearalgebra {
-    width: 70%;
+    width: 80%;
 }
 
 .skills__sql {
@@ -593,7 +597,7 @@ img {
 }
 
 .skills__powerbi {
-    width: 0%;
+    width: 60%;
 }
 
 .skills__close .skills__list {
@@ -819,7 +823,7 @@ img {
 
 .swiper-button-prev::after,
 .swiper-button-next::after {
-    content: "";
+    content: '';
 }
 
 .swiper-portfolio-icon {
